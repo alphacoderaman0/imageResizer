@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    align-items: center;
+}
+.main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 60%;
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
+}
+.main:hover{
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.3); */
+}
+h1,input,img,h2,.buttons{
+    margin: 10px 0px;
+}
+.imageContainer img{
+    /* width: 800px;
+    height: 400px; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.buttons{
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+}
+button{
+    padding: 10px 10px;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+#btn1{
+    background-image: linear-gradient(to right,#f9ce34, #ee2a7b, #6228d7);
+    opacity: 0.5;
+}
+#btn1:hover{
+    opacity: 1;
+}
+#btn3{    background:linear-gradient(45deg, #66757f, #00ACEE, #36D8FF, #f5f8fa, #ffffff);
+    opacity: 0.5;
+}
+#btn2:hover{
+    opacity: 1;
+}
+#btn3:hover{
+    opacity: 1;
+}
+#btn4:hover{
+    opacity: 1;
+}
+#btn2{
+    background-image: linear-gradient(to right,#3b5998, #e1dddd);
+    opacity: 0.5;
+}
+
+#btn4{
+    background: linear-gradient(to right, #004ff9, #fff94c);
+    opacity: 0.5;
+}
+
